@@ -1,1 +1,13 @@
-/* Add CSS Styling */
+.box {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', 'sans-serif';
+}
+
+.box.yellow {
+    background-color: yellow;
+}
+
+.box.black {
+    background-color:   hsl(30, 12%, 23%);
+    color: rgb(225, 219, 219)
+}

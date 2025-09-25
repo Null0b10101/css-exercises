@@ -5,11 +5,7 @@ body {
   display:flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.body {
-  flex: 1;
-  display: flex;
+  
 }
 
 .header {
@@ -54,6 +50,7 @@ ul {
   border-radius: 4px;
   width:300px;
   margin:15px;
+  padding: 15px;
 }
 
 .content {
@@ -65,8 +62,4 @@ ul {
   display:flex;
   flex-wrap: wrap;
   padding: 48px;
-}
-
-.card-grid-container > div {
-  padding: 15px;
 }

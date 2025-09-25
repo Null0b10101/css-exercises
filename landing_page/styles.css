@@ -5,6 +5,9 @@ body {
     display:flex;
     flex-direction: column;
     background-color: #1F2937;
+    align-items: space-between;
+    padding-left:100px;
+    padding-right:100px;
 }
 
 .header {
@@ -25,6 +28,7 @@ body {
     border: 2px solid white;
     color: white;
 }
+
 .links ul {
     display:flex;
     gap: 20px;
@@ -38,6 +42,7 @@ a {
     color:white;
 }
 
+
 .content-block.two,
 .content-block.four{
     background-color: white;
@@ -45,4 +50,42 @@ a {
 
 .content-block.three {
     background-color: #E5E7EB;
+}
+
+.content-block.one {
+    display:flex;
+    align-items: center;
+    padding-top:48px;
+    padding-bottom:48px
+}
+
+
+.content-block.one h1 {
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+
+.content-block.one p {
+    margin-top:-20;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-main h1{
+    margin-bottom:-15px;
+    margin-top:-10px
+}
+
+.hero-main {
+    padding-right: 20px;
+}
+
+.top{
+    cursor:pointer;
+    background: #3882F6;
+    border:#3882F6;
+    border-radius: 5px;
+    padding:5px 20px;
+    color: white;
 }

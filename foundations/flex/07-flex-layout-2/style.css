@@ -15,6 +15,7 @@ body {
   padding:15px;
   display:flex;
   align-items: center;
+  border: 2px solid white;
 }
 
 .footer {

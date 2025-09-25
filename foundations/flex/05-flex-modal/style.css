@@ -21,6 +21,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display:flex; /* added, puts the icon and 'column' on a row, creating two columns */
+  padding: 16px;
 }
 
 .icon {
@@ -78,4 +79,5 @@ button.cancel {
   font-weight: bold; /* added to get bold question*/
   display:flex; /* added because header component wasnt assigned yet */
   justify-content: space-between; /* added to space out as desired */
+  align-items: center; /*added after reviewing solution, makes it better indeed.*/
 }

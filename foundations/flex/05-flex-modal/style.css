@@ -12,7 +12,7 @@ body {
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .modal {
@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display:flex; /* added, puts the icon and 'column' on a row, creating two columns */
 }
 
 .icon {
@@ -33,6 +34,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0; /* added, enables ! icon to not get smashed*/
 }
 
 .close-button {
@@ -66,4 +68,14 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.text, .buttonbox, .icon, .header {
+  margin: 10px; /* added to get bit of spacing as desired */
+}
+
+.header {
+  font-weight: bold; /* added to get bold question*/
+  display:flex; /* added because header component wasnt assigned yet */
+  justify-content: space-between; /* added to space out as desired */
 }

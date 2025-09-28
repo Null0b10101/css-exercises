@@ -5,19 +5,10 @@ body {
     display:flex;
     flex-direction: column;
     background-color: #1F2937;
-    align-items: space-between;
-    padding-left:100px;
-    padding-right:100px;
 }
 
-.header {
-    display:flex;
-    justify-content: space-between;
-    background-color: #1F2937;
-    color:white;
-    align-items: center;
-    padding: 0 20px;
-    border: 2px solid white;
+.links {
+    margin-left:auto;
 }
 
 .footer {
@@ -25,8 +16,21 @@ body {
     justify-content: center;
     align-items: center;
     height: 50px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     color: white;
+}
+
+
+.header-content {
+    color:white;
+    display:flex;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    align-self: center;
 }
 
 .links ul {
@@ -42,10 +46,10 @@ a {
     color:white;
 }
 
-
 .content-block.two,
 .content-block.four{
     background-color: white;
+    display:flex;
 }
 
 .content-block.three {
@@ -56,7 +60,10 @@ a {
     display:flex;
     align-items: center;
     padding-top:48px;
-    padding-bottom:48px
+    padding-bottom:48px;
+    max-width:800px;
+    margin-right:auto;
+    margin-left: auto;
 }
 
 
@@ -88,4 +95,95 @@ a {
     border-radius: 5px;
     padding:5px 20px;
     color: white;
+}
+
+.content-block.two {
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-block.two h2 {
+    padding:20px;
+    font-size: 36px;
+    color: #1F2937;
+}
+.container-illu {
+    display:flex;
+    gap:50px;
+    padding-bottom: 75px;
+}
+
+.illu-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 120px;
+    flex:1;
+}
+
+.boxtext {
+    padding-top:10px;
+    text-align: center;
+}
+
+.box {
+    flex: 1;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 120px; 
+}
+
+.content-block.three {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px;
+}
+
+.quote-container {
+    max-width: 500px;
+}
+
+.content-block.three .author {
+    text-align: right;
+    font-weight: 700;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+.content-block.three .text {
+    font-style: italic;
+}
+
+.content-block.four {
+    justify-content: center;
+    padding: 50px;
+    color:white;
+}
+
+.action-container {
+    display:flex;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 25px 75px;
+    border-radius: 5px;
+    gap:20px;
+}
+
+.bottom{
+    cursor:pointer;
+    background: #3882F6;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding:5px 20px;
+    color:white;
+}
+
+.actioncall {
+    font-size: 20px;
+}
+
+.actiontext {
+    font-size: 13px
 }
